@@ -1,0 +1,32 @@
+body{
+    background: rgb(51, 176, 226);
+    font: normal 15pt Arial;
+}
+
+header{ 
+color: white;
+text-align: center;
+text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);}
+
+    #foto{ 
+        width: 250px;  
+        height: 250px;
+        border-radius: 50%;
+    
+        }
+  
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
