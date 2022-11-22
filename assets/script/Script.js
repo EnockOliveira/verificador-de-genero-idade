@@ -16,24 +16,24 @@ else {
     if (fsex[0].checked) {
         genero = 'Homem'
         if(idade<10){
-            img.setAttribute('src','kidm.png')
+            img.setAttribute('src','./assets/img/kidm.png')
         }else if(idade<21){
-            img.setAttribute('src','teenm.png')
+            img.setAttribute('src','./assets/img/teenm.png')
         }else if(idade<60){
-            img.setAttribute('src','adultm.png')
+            img.setAttribute('src','./assets/img/adultm.png')
         }else {
-            img.setAttribute('src','oldm.png')
+            img.setAttribute('src','./assets/img/oldm.png')
         }
     }   else if (fsex[1].checked) {
         genero = 'Mulher'
         if(idade<10){
-            img.setAttribute('src','kidf.png')
+            img.setAttribute('src','./assets/img/kidf.png')
         }else if(idade<21){
-            img.setAttribute('src','teenf.png')
+            img.setAttribute('src','./assets/img/teenf.png')
         }else if(idade<60){
-            img.setAttribute('src','adultf.png')
+            img.setAttribute('src','./assets/img/adultf.png')
         }else{
-            img.setAttribute('src','oldf.png')
+            img.setAttribute('src','./assets/img/oldf.png')
         }            
    
 }
